@@ -1,0 +1,81 @@
+---
+- name: Deploy Automated Resume Website
+  hosts: resume_servers
+  become: true
+
+  tasks:
+    - name: Update apt software package cache
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: Install Nginx Web Server
+      apt:
+        name: nginx
+        state: present
+
+    - name: Ensure Nginx is running and starts on boot
+      systemd:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Generate web page template from text resume
+      copy:
+        content: |
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>My Automated Cloud Resume</title>
+              <link href="https://cloudflare.com" rel="stylesheet">
+          </head>
+          <body class="bg-gray-100 text-gray-800 min-h-screen py-12 px-4 antialiased">
+              <div class="max-w-3xl mx-auto">
+                  
+                  <!-- Main Floating Resume Card -->
+                  <div class="bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden">
+                      
+                      <!-- Top Decorative Accent Bar -->
+                      <div class="h-2 bg-gradient-to-r from-blue-600 to-indigo-600"></div>
+                      
+                      <!-- Automation Badges: Proves your tech stack immediately -->
+                      <div class="px-8 pt-8 sm:px-12 flex gap-2 flex-wrap">
+                          <img src="https://shields.io" alt="Terraform">
+                          <img src="https://shields.io" alt="Ansible">
+                          <img src="https://shields.io" alt="AWS EC2">
+                      </div>
+
+                      <!-- Clean Formatted Content -->
+                      <div class="p-8 sm:p-12 font-sans text-base leading-relaxed text-gray-700">
+                          <p class="text-xl font-bold text-gray-900 border-b pb-2 mb-4">PROFILE SUMMARY</p>
+                          <p class="mb-6">Highly capable systems administrator expanding skills into AWS Cloud Architectures, Infrastructure as Code, and Automation.</p>
+                          
+                          <p class="text-xl font-bold text-gray-900 border-b pb-2 mb-4">TECHNICAL SKILLS</p>
+                          <ul class="list-disc pl-5 mb-6 space-y-1">
+                              <li><strong>Cloud:</strong> AWS (IAM, EC2, S3, CloudFront)</li>
+                              <li><strong>Automation:</strong> Terraform, Ansible, Git, CI/CD</li>
+                              <li><strong>Systems:</strong> Linux (zsh), Windows Server, SCCM/MECM</li>
+                          </ul>
+                          
+                          <p class="text-xl font-bold text-gray-900 border-b pb-2 mb-4">EXPERIENCE</p>
+                          <div class="mb-4">
+                              <p class="font-semibold text-gray-900">Systems Infrastructure Engineer | 2026 - Present</p>
+                              <ul class="list-disc pl-5 space-y-1 mt-1">
+                                  <li>Automated bare-metal workstation deployments via SCCM.</li>
+                                  <li>Engineered automated cloud pipelines for application delivery.</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Footer Notes -->
+                  <div class="text-center mt-8 text-xs text-gray-400 tracking-wider uppercase">
+                      Deployed Automatically via <span class="font-semibold text-blue-500">Terraform</span> & <span class="font-semibold text-indigo-500">Ansible</span>
+                  </div>
+              </div>
+          </body>
+          </html>
+        dest: /var/www/html/index.html
+        mode: '0644'

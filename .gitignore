@@ -1,0 +1,11 @@
+# Ignore local Terraform state files and credentials
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore your private SSH key used to log into the AWS instance
+*.pem
+
+# Ignore your local terminal state variables
+.env

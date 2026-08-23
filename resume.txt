@@ -1,0 +1,72 @@
+GREG VAZQUEZ
+Orlando, FL | (954) 907-3166 | elitevaz@hotmail.com
+ 
+PROFESSIONAL SUMMARY
+Senior Endpoint & IT Operations Specialist with 9+ years of experience supporting enterprise, regulated, and security-sensitive environments. Expert in restoring operational clarity where tooling, reporting, and real-world system states diverge. Proven ability to manage endpoint lifecycle operations, reconcile executive-facing metrics, automate remediation, and stabilize workflows under sustained leadership pressure. Trusted partner for endpoint migrations, asset governance, and large-scale refresh initiatives where accuracy, accountability, and follow-through are critical.
+ 
+CORE SKILLS (OPERATIONS & OUTCOME-FOCUSED)
+Endpoint & Device Operations - Enterprise endpoint lifecycle management (deploy, migrate, remediate, retire) - Windows 10/11 migration operations (in-place upgrades & hardware replacement) - SCCM imaging, PXE deployment, post-deployment remediation - Endpoint security tooling alignment (CrowdStrike, BitLocker, MDM)
+IT Operations & Reporting - Reconciling security, asset, and ITSM data with real-world system state - Executive-facing operational reporting and status accountability - SLA risk identification and mitigation in dependency-heavy workflows
+Process Improvement & Automation - Workflow optimization through scripting and task automation (PowerShell, batch) - Data normalization and analysis using Excel and Power Query - Designing repeatable processes in environments with incomplete documentation
+Asset Lifecycle & Governance - Hardware refresh, return enforcement, and decommissioning workflows - Inventory accuracy, audit readiness, and disposal preparation - ServiceNow asset state management and lifecycle visibility
+Stakeholder & User Engagement - Direct coordination with end users, managers, and leadership - Translating technical constraints into operational decisions - Maintaining trust and momentum in high-friction scenarios
+ 
+SELECTED IMPACT & ACCOMPLISHMENTS
+•	Eliminated Ticket Backlog (Service Desk Analyst – Qbase): Reduced a backlog of ~200 tickets to zero by resolving 10–20 cases daily (approximately 95% remotely), restoring SLA performance, improving response timelines, and increasing end‑user confidence in IT support operations.
+•	Led Secure PC Refresh & Data Migration Projects (Desktop Support / PC Refresh Roles): Backed up and restored user data, profiles, mapped drives, and peripherals during large‑scale hardware refresh initiatives, enabling seamless transitions to new systems with minimal disruption.
+•	Supported Mission‑Critical Government Operations (Qbase): Delivered cleared technical support for government agencies, including after‑hours incident response and escalations, while maintaining strict compliance with federal security and uptime requirements.
+•	Enabled Large‑Scale Technology Rollouts (Multiple Desktop Support Roles): Supported approximately 200 users during system upgrades and collaborative technology rollouts by coordinating deployments, resolving issues, and accelerating user adoption.
+ 
+PROFESSIONAL EXPERIENCE
+Lead Infrastructure Engineer – Mphasis Digital Risk | Maitland, FL
+12/2024 – Present
+•	Supported and operationally stabilized enterprise-wide Windows 10 to Windows 11 migration initiatives, managing both in-place upgrades and hardware replacement workflows for remote and onsite users.
+•	Assumed ownership of endpoint migration visibility by reconciling daily CrowdStrike security telemetry with actual device state, uncovering and resolving discrepancies that distorted executive reporting and escalations.
+•	Built and maintained an Excel-based operational control system using Power Query to clean, normalize, and track daily security and asset data, managing each endpoint as an individual case with documented status and resolution paths.
+•	Served as the primary point of accountability during frequent management reviews, providing confident, data-backed explanations for each outstanding system and eliminating uncertainty in leadership updates.
+•	Reduced unresolved Windows 10 migration, decommissioning, and security-report cases to zero by establishing disciplined follow-up, escalation, and closure workflows.
+•	Automated remediation of a recurring Microsoft Teams post-imaging failure by consolidating a multi-step manual fix into a single executable process, improving deployment consistency and technician efficiency.
+•	Identified systemic asset tracking inaccuracies introduced by ServiceNow request workflows and implemented compensating operational controls to preserve visibility of devices pending return.
+•	Coordinated directly with resistant end users and their managers to enforce timely asset returns, achieving compliance without formal authority.
+•	Led detailed inventory validation and disposal preparation for decommissioned hardware by designing structured data capture, validation rules, and analysis workflows under shifting management directives.
+•	Balanced endpoint support, operational reporting, automation efforts, and executive-driven deadlines in a high-pressure, metrics-focused environment.
+Desktop Support Specialist – TEWS | Orlando, FL
+02/2022 – 10/2024
+•	Delivered full lifecycle desktop and mobile device support for Central Florida Expressway Authority staff in a regulated public-sector environment.
+•	Imaged, deployed, replaced, and retired Windows systems using SCCM while maintaining accurate asset inventory and audit-ready records.
+•	Resolved hardware, OS, printer, and application issues to maintain employee productivity and reduce downtime.
+•	Supported board meetings and executive sessions by preparing technology setups and resolving live issues during high-visibility publicly broadcasted events.
+•	Managed and prioritized Jira tickets based on business impact and SLA requirements.
+Desktop Support II – Pomeroy Technologies | Orlando, FL
+05/2021 – 02/2022
+•	Provided onsite enterprise desktop support for Pella Glass and Doors operations.
+•	Imaged and configured Windows desktops and laptops using SCCM, PXE boot, and USB-based deployment methods.
+•	Enrolled and secured iOS devices using Microsoft Intune and MDM policies for enterprise compliance.
+•	Handled escalated ServiceNow tickets requiring independent troubleshooting and resolution beyond helpdesk scope.
+Service Desk Analyst – Qbase | Orlando, FL
+09/2018 – 07/2022
+•	Delivered cleared application and device support for government agencies under strict security and compliance requirements.
+•	Diagnosed and resolved account lockouts and access issues using Active Directory and backend systems.
+•	Administered and supported government-issued mobile devices using AirWatch in accordance with federal policy.
+•	Served as first point of contact for major incidents, coordinating response efforts and communicating status to stakeholders.
+PC Refresh Technician / Data Technician – Lockheed Martin (via Acara & Superior) | Orlando, FL
+05/2017 – 09/2018
+•	Supported large-scale enterprise hardware refresh initiatives by identifying systems for replacement and imaging new devices.
+•	Secured, migrated, and validated user data and configurations prior to and after system replacements.
+•	Deployed updated desktop systems while ensuring data integrity and operational continuity.
+ 
+TECHNICAL TOOLSET
+•	Operating Systems: Windows 7–11, Windows Server 2008–2022, macOS, Linux
+•	Scripting & Data: PowerShell, Python, SQL, R (used for automation, analysis, and problem-solving)
+•	Endpoint & Device Management: SCCM, Microsoft Intune, AirWatch
+•	Identity & Access: Active Directory, Group Policy
+•	Ticketing & ITSM: ServiceNow, Jira, Remedy, Autotask, ConnectWise
+•	Admin & Productivity: Office 365 Admin
+ 
+CERTIFICATIONS & EDUCATION
+•	CompTIA A+ (2013–2016)
+•	Master of Science in Information Technology – University of West Florida
+•	Bachelor of Applied Science in Information Technology – Broward College
+•	Associate of Arts in Computer & Information Science – Broward College
+•	Accounting Technology Specialist Certificate – Broward College
+•	Business Specialist Certificate – Broward College
